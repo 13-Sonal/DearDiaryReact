@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap'); */
+
+.login-container {
+  background-image: url("../assets/landing.png");
+  /* background-size: contain; */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  /* font-family: 'Great Vibes', cursive; */
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 20px rgba(74, 71, 71, 0.3);
+  /* font-family: 'Great Vibes', cursive; */
+}
+
+.login-box select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+  /* font-family: 'Great Vibes', cursive; */
+}
+
+.login-box p {
+  color: red;
+  margin: 0;
+}
+
+.login-box button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  /* font-family: 'Great Vibes', cursive; */
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  /* font-family: 'Great Vibes', cursive; */
+}
